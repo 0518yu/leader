@@ -1,0 +1,27 @@
+{
+  "name": "0518yu/leader",
+  "type": "project",
+  "description": "php is beautiful",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zkx",
+      "email": "59916375@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    },
+    "files": [
+      "def.php"
+    ]
+  },
+  "require": {},
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  ]
+}
