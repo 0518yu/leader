@@ -5,7 +5,7 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "zkx",
+      "name": "frame-php-free",
       "email": "59916375@qq.com"
     }
   ],
@@ -14,10 +14,15 @@
       "App\\": "app"
     },
     "files": [
-      "def.php"
+      "func.php"
     ]
   },
-  "require": {},
+  "require": {
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "ext-gd": "*",
+    "ezyang/htmlpurifier": "^4.13"
+  },
   "repositories": [
     {
       "type": "composer",

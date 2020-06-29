@@ -1,6 +1,11 @@
 MIT License
 
-Copyright frame-php-free
+Copyright (c) 2020 frame-php-free
+
+Inspired by mysqlreflection link :https://github.com/rcarvello/mysqlreflection
+Inspired by medoo link :https://medoo.lvtao.net/
+Inspired by adminlte link :https://adminlte.io/
+Inspired by htmlpurifier link :https://github.com/ezyang/htmlpurifier
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

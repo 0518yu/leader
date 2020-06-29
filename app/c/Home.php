@@ -2,10 +2,17 @@
 
 namespace App\c;
 
-class Home
+
+use App\pithy\BaseCon;
+
+/**
+ * Class Home
+ * @package App\c
+ */
+class Home extends BaseCon
 {
     public function index()
     {
-        html() && include TEMPLATE . "index.php";
+        $this->html() && include TEMPLATE . "index.php";
     }
 }
